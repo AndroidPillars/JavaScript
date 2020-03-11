@@ -216,15 +216,11 @@ console.log(name.slice(0,3));
 
 - Variable that hold multiple values.
 
-# Using Single Data Types
-
 ```ruby
 const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
 
 console.log(mArrayNames);
 ```
-
-# Using different Data Types
 
 - JavaScript is not a Statically typed Language.
 
@@ -232,6 +228,30 @@ console.log(mArrayNames);
 const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative', 5, true);
 
 console.log(mArrayNames);
+```
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative', 5, true);
+
+console.log(mArrayNames[1]);
+```
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative', 5, true);
+
+mArrayNames[2] = 'Java';
+```
+
+# For Round-Off  Values
+
+```ruby
+const rating = 4.5;
+
+console.log(Math.floor(rating));
+```
+```ruby
+const rating = 4.5;
+
+console.log(Math.round(rating));
 ```
 
 # Functions
