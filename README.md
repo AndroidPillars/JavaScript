@@ -265,6 +265,21 @@ const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
 mArrayNames.pop();
 ```
 
+- To check the Array List is Available
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
+
+console.log(Array.isArray(mArrayNames));
+```
+- To get the index of ArrayList
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
+
+console.log(mArrayNames.indexOf('Flutter'));
+```
+
 # For Round-Off  Values
 
 ```ruby
