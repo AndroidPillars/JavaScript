@@ -241,6 +241,30 @@ const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative', 5, tru
 mArrayNames[2] = 'Java';
 ```
 
+- The push() method adds new items to the end of an array, and returns the new length.
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
+
+mArrayNames.push = 'Java';
+```
+
+- The unshift() method adds new items to the beginning of an array, and returns the new length.
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
+
+mArrayNames.unshift = 'Python';
+```
+
+- The pop() method removes the last element of an array, and returns that element.
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
+
+mArrayNames.pop();
+```
+
 # For Round-Off  Values
 
 ```ruby
