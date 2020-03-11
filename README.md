@@ -331,7 +331,7 @@ if(condition){
 
 }
 ```
-- Using while
+- Using while Loops
 
 ```ruby
 var i = 1;
@@ -339,6 +339,14 @@ var i = 1;
 while (i < 20) {
   console.log(i);
   i++;
+}
+```
+
+- Using For Loops
+
+```ruby
+for(var i = 1; i < 20; i++){
+    console.log(i);
 }
 ```
 # Comparators and Equality
