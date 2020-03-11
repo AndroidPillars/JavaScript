@@ -313,6 +313,31 @@ n = Math.floor(n) + 1;
 console.log(n);
 ```
 
+# Control Statements
+
+```ruby
+if(condition){
+
+}else{
+
+}
+```
+# Comparators and Equality
+
+=== - Is equal to ( === this will compare different data types)
+!== - Is not equal to
+>   - Is greater than
+<   - Is lesser than
+>=  - Is greater than or equal to
+<=  - Is lesser than or equal to
+
+# Combining Comparators
+
+&& - AND
+|| - OR
+!  - NOT
+
+
 # Knowledge Transfer
 
 # High Level Language
