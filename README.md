@@ -296,6 +296,22 @@ console.log(Math.round(rating));
 # Functions
 
 
+# Random Number Generation
+
+- For, Random Number Generation(0 - 0.999999999999)
+
+```ruby
+var n = Math.random();
+```
+
+- Simple Random Number calculation for roll dice,
+
+```ruby
+var n = Math.random();
+n = n * 6;
+n = Math.floor(n) + 1;
+console.log(n);
+```
 
 # Knowledge Transfer
 
