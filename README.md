@@ -324,18 +324,18 @@ if(condition){
 ```
 # Comparators and Equality
 
-=== - Is equal to ( === this will compare different data types)  
-!== - Is not equal to  
->   - Is greater than  
-<   - Is lesser than  
->=  - Is greater than or equal to  
-<=  - Is lesser than or equal to  
+=== -Is equal to ( === this will compare different data types)  
+!== -Is not equal to  
+>   -Is greater than  
+<   -Is lesser than  
+>=  -Is greater than or equal to  
+<=  -Is lesser than or equal to  
 
 # Combining Comparators
 
-&& - AND  
-|| - OR  
-!  - NOT  
+&& -AND  
+|| -OR  
+!  -NOT  
 
 
 # Knowledge Transfer
