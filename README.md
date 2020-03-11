@@ -447,6 +447,98 @@ JavaScript(Allowed) -> dis-allowed over there.
 
 - https://github.com/rwaldron/idiomatic.js/ (For Code Styling)
 
+# DOM Events
+
+- The onload event occurs when an object has been loaded.
+
+```ruby
+object.onload = function(){myScript};
+```
+
+# Inline JavaScript
+
+```ruby
+<body onload="alert('Hello');">
+    <h1>Hello</h1>
+</body>
+```
+
+# Internal JavaScript
+
+```ruby
+<body>
+    <h1>Hello</h1>
+    <script type="text/javascript">
+        alert('Hello');
+    </script>
+</body>
+```
+
+# External JavaScript
+
+__In index.html__
+
+```ruby
+<body>
+    <h1>Hello</h1>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+```
+__In index.jss__
+
+```ruby
+alert('Hello');
+```
+
+# DOM(Document Object Model)
+
+- Dominating the DOM to add functionality to HTML Elements.
+- In Simple terms, JavaScript can access all the elements in a webpage making use of Document Object Model (DOM).
+- It basically the web page converted in to the individual objects that we can select and manipulate.
+- Converting HTML file in to the DOM is done by the browser when you load the web page.
+- It turns each of the elements and their associated data in to a tree structure with a whole bunch of objects that you can select and Manipulate.
+
+
+- The above tree model is usually how you'll DOM represented.
+- You can see all of the elements in our HTML has been converted in to Objects, and their relationships to each other in the tree diagram.
+
+- In JavaScript everything is under document.
+
+```ruby
+document
+```
+- html section,
+```ruby
+document.firstElementChild;
+```
+- head section,
+```ruby
+document.firstElementChild.firstElementChild;
+```
+- body section,
+```ruby
+document.document.firstElementChild.lastElementChild;
+```
+- To change the Text of the Element,
+```ruby
+document.document.firstElementChild.lastElementChild.innerHTML = 'Good Bye';
+```
+- To change the Text color of the Element,
+```ruby
+document.firstElementChild.lastElementChild.firstElementChild.style.color = 'red';
+```
+- To click button Element using querySelector,
+```ruby
+document.querySelector('button').click;
+```
+- Objects inside the DOM(Eg: Button) have Properties and Methods
+- Here, Properties describes something about the object.
+- Methods are the things that the object can do.
+
+
+
+https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg (HTML Tree Genarator)
+
 
 
 
