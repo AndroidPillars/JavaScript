@@ -322,11 +322,23 @@ console.log(n);
 
 # Control Statements
 
+- Using if, else
+
 ```ruby
 if(condition){
 
 }else{
 
+}
+```
+- Using while
+
+```ruby
+var i = 1;
+
+while (i < 20) {
+  console.log(i);
+  i++;
 }
 ```
 # Comparators and Equality
