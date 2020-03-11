@@ -279,6 +279,13 @@ const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative');
 
 console.log(mArrayNames.indexOf('Flutter'));
 ```
+- The includes() method determines whether an array contains a specified element.
+
+```ruby
+const mArrayNames = new Array('Android', 'Flutter', 'iOS', 'ReactNative', 5, true);
+
+console.log( mArrayNames.includes('Android'));
+```
 
 # For Round-Off  Values
 
