@@ -439,6 +439,23 @@ alert('Hello');
 - The above tree model is usually how you'll DOM represented.
 - You can see all of the elements in our HTML has been converted in to Objects, and their relationships to each other in the tree diagram.
 
+__In index.html,__
+```ruby
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Hello</h1>
+    <button>Click Me</button>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
+```
+
 - In JavaScript everything is under document.
 
 ```ruby
