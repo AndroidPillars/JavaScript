@@ -434,8 +434,6 @@ alert('Hello');
 - It basically the web page converted in to the individual objects that we can select and manipulate.
 - Converting HTML file in to the DOM is done by the browser when you load the web page.
 - It turns each of the elements and their associated data in to a tree structure with a whole bunch of objects that you can select and Manipulate.
-
-
 - The above tree model is usually how you'll DOM represented.
 - You can see all of the elements in our HTML has been converted in to Objects, and their relationships to each other in the tree diagram.
 
@@ -450,9 +448,17 @@ __In index.html,__
 </head>
 <body>
     <h1>Hello</h1>
-    <button>Click Me</button>
-    <script src="index.js" charset="utf-8"></script>
+    <input type="checkbox">
+    <button class="btn">Click Me</button>
+    <ul id="list">
+        <li class="item"><a href="https://www.google.com/">Google</a></li>
+        <li class="item">Two</li>
+        <li class="item">Three</li>
+    </ul>
 </body>
+<footer>
+    <script src="index.js" charset="utf-8"></script>
+</footer>
 </html>
 ```
 
