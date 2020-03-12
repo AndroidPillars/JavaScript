@@ -1,6 +1,6 @@
 # Topics
 
-[History](AndroidPillars/JavaScript#history)    
+[History](JavaScript#history)    
 
 # History
 
