@@ -524,10 +524,10 @@ document.getElementsByClassName("item");
 document.getElementsByClassName("item")[1].style.color = "green";
 ```
 
+- To get the element using id,
 ```ruby
-document.getElementById("list");
+document.getElementById("list").style.backgroundColor="red";
 ```
-
 
 # Knowledge Transfer
 
