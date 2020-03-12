@@ -368,85 +368,6 @@ for(var i = 1; i < 20; i++){
 !  - NOT  
 ```
 
-
-# Knowledge Transfer
-
-# High Level Language
-
-- It is programmer friendly language.
-- High level language is less memory efficient.
-- It is easy to understand.
-- It can run on any platform.
-- It is simple to maintain.
-- It is simple to debug.
-- Java, JavaScript, Python
-
-# Low Level Language
-
-- It is a machine friendly language.
-- Low level language is high memory efficient.
-- It is tough to understand.
-- It is machine-dependent.
-- It is complex to maintain comparatively.
-- It is complex to debug comparatively.
-- Machine, Assembly and Compiler
-
-# Program for Fibonacci Series
-
-```ruby
-var n = 99;
-
-function fibonacciGenerator(n) {
-  var output = [];
-  if (n === 1) {
-    output = [0];
-  } else if (n === 2) {
-    output = [0, 1];
-  } else {
-    output = [0, 1];
-
-    for (var i = 2; i < n; i++) {
-      output.push(output[output.length - 1] + output[output.length - 1]);
-    }
-  }
-
-  return output;
-}
-
-output = fibonacciGenerator(n);
-console.log(output);
-```
-# Program for Leap Year
-
-```ruby
-function isLeap(year) {
-  if (year % 4 === 0) {
-    if (year % 100 === 0) {
-      if (year % 400 === 0) {
-        return console.log('Leap Year');
-      } else {
-        return console.log("Not Leap Year");
-      }
-    } else {
-      return console.log("Not Leap Year");
-    }
-  } else {
-    return console.log("Not Leap Year");
-  }
-}
-
-output = isLeap(2000);
-```
-
-# Note
-
-- We can disable JavaScript in browser -> Settings -> In Search Bar type javascript -> Site Settings ->
-JavaScript(Allowed) -> dis-allowed over there.
-
-# Reference
-
-- https://github.com/rwaldron/idiomatic.js/ (For Code Styling)
-
 # DOM Events
 
 - The onload event occurs when an object has been loaded.
@@ -536,8 +457,84 @@ document.querySelector('button').click;
 - Methods are the things that the object can do.
 
 
+# Knowledge Transfer
 
-https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg (HTML Tree Genarator)
+# High Level Language
+
+- It is programmer friendly language.
+- High level language is less memory efficient.
+- It is easy to understand.
+- It can run on any platform.
+- It is simple to maintain.
+- It is simple to debug.
+- Java, JavaScript, Python
+
+# Low Level Language
+
+- It is a machine friendly language.
+- Low level language is high memory efficient.
+- It is tough to understand.
+- It is machine-dependent.
+- It is complex to maintain comparatively.
+- It is complex to debug comparatively.
+- Machine, Assembly and Compiler
+
+# Program for Fibonacci Series
+
+```ruby
+var n = 99;
+
+function fibonacciGenerator(n) {
+  var output = [];
+  if (n === 1) {
+    output = [0];
+  } else if (n === 2) {
+    output = [0, 1];
+  } else {
+    output = [0, 1];
+
+    for (var i = 2; i < n; i++) {
+      output.push(output[output.length - 1] + output[output.length - 1]);
+    }
+  }
+
+  return output;
+}
+
+output = fibonacciGenerator(n);
+console.log(output);
+```
+# Program for Leap Year
+
+```ruby
+function isLeap(year) {
+  if (year % 4 === 0) {
+    if (year % 100 === 0) {
+      if (year % 400 === 0) {
+        return console.log('Leap Year');
+      } else {
+        return console.log("Not Leap Year");
+      }
+    } else {
+      return console.log("Not Leap Year");
+    }
+  } else {
+    return console.log("Not Leap Year");
+  }
+}
+
+output = isLeap(2000);
+```
+
+# Note
+
+- We can disable JavaScript in browser -> Settings -> In Search Bar type javascript -> Site Settings ->
+JavaScript(Allowed) -> dis-allowed over there.
+
+# Reference
+
+- https://github.com/rwaldron/idiomatic.js/ (For Code Styling)
+- https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg (HTML Tree Genarator)
 
 
 
