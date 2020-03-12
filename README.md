@@ -491,9 +491,42 @@ document.firstElementChild.lastElementChild.firstElementChild.style.color = 'red
 ```ruby
 document.querySelector('button').click;
 ```
+- To get the item in the list using querySelector,
+
+```ruby
+document.querySelector("li a");
+
+document.querySelector("li.item");
+
+document.querySelector("#list a");
+
+document.querySelectorAll("#list .item");
+
+document.querySelectorAll("#list .item")[2].style.color = "blue";
+```
 - Objects inside the DOM(Eg: Button) have Properties and Methods
 - Here, Properties describes something about the object.
 - Methods are the things that the object can do.
+- In Button, Properties includes innerHTML, style, firstChild.
+- In Button, Methods includes click(),appendChild() and setAttribute().
+
+- To get the element using TagName,
+```ruby
+document.getElementsByTagName("li")[1].style.color = "purple";
+
+document.getElementsByTagName("li").length;
+```
+- To get the element using ClassName,
+
+```ruby
+document.getElementsByClassName("item");
+
+document.getElementsByClassName("item")[1].style.color = "green";
+```
+
+```ruby
+document.getElementById("list");
+```
 
 
 # Knowledge Transfer
