@@ -1,6 +1,6 @@
 # Topics
 
-[History](JavaScript#history)    
+[History](README.md#history)    
 
 # History
 
