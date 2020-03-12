@@ -529,6 +529,84 @@ document.getElementsByClassName("item")[1].style.color = "green";
 document.getElementById("list").style.backgroundColor="red";
 ```
 
+# Manipulating and Changing Styles of HTML Elements with JavaScript
+
+- Camel Casing is used for naming methods and properties in JavaScript.
+```ruby
+backgroundColor = "red"
+```
+- The values you are going to set has to be represented as Strings.
+```ruby
+style.width = "20%";
+```
+
+# Seperation of Concerns: Structure vs Style vs Behaviour
+
+- HTML 		-> Content
+- CSS  		-> Style
+- JavaScript 	-> Behaviour
+
+```ruby
+document.querySelector("button").classList;
+```
+
+__In styles.css__
+
+```ruby
+.invisible{
+    visibility: hidden;
+}
+```
+- To hide and set visibility to the button
+
+```ruby
+document.querySelector("button").classList.add("invisible");
+
+document.querySelector("button").classList.remove("invisible");
+```
+__alternative way,__
+
+```ruby
+document.querySelector("button").classList.toggle("invisible");
+```
+
+# Text Manipulation and the Text Content Property
+
+__In index.html,__
+
+```ruby
+<h1><strong>Hello</strong></h1>
+```
+
+```ruby
+document.querySelector("h1").textContent = "<em>Hello</em>";
+
+O/P: <em>Hello</em>
+```
+```ruby
+document.querySelector("h1").innerHTML = "<em>Google</em>";
+
+O/P: Hello
+```
+
+# Manipulating HTML Elements Attributes
+
+```ruby
+document.querySelector("a");
+
+O/P: <a href=​"https:​/​/​www.google.com/​">​Google​</a>​
+
+document.querySelector("a").attributes;
+
+O/P: NamedNodeMap {0: href, href: href, length: 1}
+
+document.querySelector("a").getAttribute("href");
+
+O/P: "https://www.google.com/"
+
+document.querySelector("a").setAttribute("href","https://www.w3schools.com/html/default.asp");
+```
+
 # Knowledge Transfer
 
 # High Level Language
