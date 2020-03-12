@@ -1,6 +1,18 @@
 # Topics
 
-[History](README.md#history)    
+- [History](README.md#history)   
+- [Java vs JavaScript](README.md#java-vs-javascript)   
+- [Interpreted Languages](README.md#interpreted-languages)   
+- [Compiled Languages](README.md#compiled-languages)    
+- [Why JavaScript](README.md#why-javascript)   
+- [Adding Behaviour to Websites](README.md#adding-behaviour-to-websites)   
+- [Data Types](README.md#data-types)   
+- [Variables](README.md#variables)   
+- [History](README.md#history)   
+- [History](README.md#history)   
+- [History](README.md#history)   
+- [History](README.md#history)   
+- [History](README.md#history)   
 
 # History
 
