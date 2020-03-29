@@ -1,6 +1,8 @@
 # Topics
 
-- [History](README.md#history)   
+| S.No | Content |
+| --------	 | ------------ |
+| 1 | [History](README.md#history) |
 - [Java vs JavaScript](README.md#java-vs-javascript)   
 - [Interpreted Languages](README.md#interpreted-languages)   
 - [Compiled Languages](README.md#compiled-languages)    
