@@ -102,7 +102,7 @@ console.log(name, age, rating, isGood, x, y, z);
 ```ruby
 var age = 20;
 
-age = 22;
+var age = 22;
 
 console.log(age);
 ```
